@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family="Nunito":ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap"); */
 
 /** downloaded fonts */
 @font-face {
@@ -30,7 +30,7 @@
 /* hero section */
 .cta1 {
   width: 100%;
-  height: 500px;
+  height: 100%;
   position: relative;
 }
 .cta1-bg {
@@ -42,40 +42,81 @@
 .cta1__wrapper {
   width: 50%;
   height: 100%;
-  border: 1px solid #000;
-  padding: 156px 88px;
+  padding: 88px 0 88px 156px;
 }
 .cta1__wrapper > h1 {
+  /* font-family: "Nunito"; */
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  color: #31b5a7;
+  margin-bottom: 8px;
 }
 .cta1__wrapper > p {
+  font-family: "Nunito";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #393a4a;
+  margin-bottom: 24px;
 }
 .cta1__form {
   background-color: #fff;
   width: 100%;
-  padding: 20px;
+  padding: 24px;
 }
 
 .cta1__form > .form-input-group {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 .cta1__form > .form-input-group:last-child {
   margin-bottom: 0px;
 }
 
 .cta1__form > .form-input-group > .form-input {
-  border: 1px solid #000;
-  padding: 10px;
+  padding: 10px 8px;
   width: 100%;
+  background: #fafbfc;
+  border: 2px solid #dfe1e6;
+  border-radius: 3px;
+}
+.cta1__form > .form-input-group > .form-input::placeholder {
+  font-family: SF Pro Text;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
 }
 .cta1__form > .form-input-group > .form-input.referral-btn {
+  background: #31b5a7;
+  padding: 10px;
+  font-family: SF Pro Text;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  border: none;
 }
 
 /* how it works section */
 .how-it-works {
   width: 100%;
-  padding: 50px;
+  padding: 88px 156px;
 }
 .how-it-works > h3 {
+  font-family: "Nunito";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #31b5a7;
 }
 
 .how-it-works__section {
@@ -85,6 +126,10 @@
 .how-it-works__card {
   width: 33%;
   margin-top: 30px;
+  margin-right: 24px;
+}
+.how-it-works__card:last-child {
+  margin-right: 0px;
 }
 .how-it-works__image {
   width: 100%;
@@ -93,8 +138,14 @@
   width: inherit;
 }
 .how-it-works__body {
+  padding: 0 24px;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
   text-align: center;
-  padding: 0 20px;
 }
 
 /* docs section */
@@ -111,7 +162,7 @@
 }
 .docs__wrapper {
   display: flex;
-  padding: 50px;
+  padding: 104px 156px;
   /* align-items: stretch; */
 }
 .docs__wrapper > div {
