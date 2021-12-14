@@ -78,7 +78,7 @@
   border-radius: 3px;
 }
 .cta1__form > .form-input-group > .form-input::placeholder {
-  font-family: SF Pro Text;
+  font-family: "SF Pro Text";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -88,7 +88,7 @@
 .cta1__form > .form-input-group > .form-input.referral-btn {
   background: #31b5a7;
   padding: 10px;
-  font-family: SF Pro Text;
+  font-family: "SF Pro Text";
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0px;
@@ -189,7 +189,7 @@
 }
 .docs__body > a {
   color: #31b5a7;
-  font-family: SF Pro Text;
+  font-family: "SF Pro Text";
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0px;
@@ -270,7 +270,7 @@
   border-radius: 3px;
   background-color: #fafbfc;
   border: 2px solid #dfe1e6;
-  font-family: SF Pro Text;
+  font-family: "SF Pro Text";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -280,7 +280,7 @@
   color: #7a869a;
 }
 .cta2__bottom > .referral-input > input::placeholder {
-  font-family: SF Pro Text;
+  font-family: "SF Pro Text";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
