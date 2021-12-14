@@ -1,57 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--* The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--* The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<!--* Title -->
-	<title></title>
+    <!--* Title -->
+    <title></title>
 
-	<!-- * SEO Meta Tags -->
-	<!-- Primary Meta Tags -->
-	<meta name="title" content="50 to 60 characters" />
-	<meta name="description" content="105 to 150 characters" />
-	<!-- Open Graph / Facebook Meta Tags -->
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="url" />
-	<meta property="og:title" content="50 to 60 characters" />
-	<meta property="og:description" content="105 to 150 characters" />
-	<meta property="og:image" content="1200px to 627px less than 5mb" />
-	<!-- Twitter Meta Tags -->
-	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content="url" />
-	<meta property="twitter:title" content="50 to 60 characters" />
-	<meta property="twitter:description" content="105 to 150 characters" />
-	<meta property="twitter:image" content="1200px to 627px less than 5mb" />
+    <!-- * SEO Meta Tags -->
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="50 to 60 characters" />
+    <meta name="description" content="105 to 150 characters" />
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="url" />
+    <meta property="og:title" content="50 to 60 characters" />
+    <meta property="og:description" content="105 to 150 characters" />
+    <meta property="og:image" content="1200px to 627px less than 5mb" />
+    <!-- Twitter Meta Tags -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="url" />
+    <meta property="twitter:title" content="50 to 60 characters" />
+    <meta property="twitter:description" content="105 to 150 characters" />
+    <meta property="twitter:image" content="1200px to 627px less than 5mb" />
 
-	<!--* Fonts -->
-	<!-- Google fonts offline -->
-	<link rel="preload" href="" as="fonts" />
-	<!-- Google fonts online -->
-	<link rel="preconnect" href="" />
+    <!--* Fonts -->
+    <!-- Google fonts offline -->
+    <link rel="preload" href="" as="fonts" />
+    <!-- Google fonts online -->
+    <link rel="preconnect" href="" />
 
-	<!--* Icons -->
-	<!-- FontAwesome offline -->
-	<link rel="stylesheet" href="fontawesome5.15/css/all.css" />
-	<!-- FontAwesome online -->
-	<script
-	  src="https://kit.fontawesome.com/dfede42a17.js"
-	  crossorigin="anonymous"
-	></script>
+    <!--* Icons -->
+    <!-- FontAwesome offline -->
+    <link rel="stylesheet" href="fontawesome5.15/css/all.css" />
+    <!-- FontAwesome online -->
+    <script
+      src="https://kit.fontawesome.com/dfede42a17.js"
+      crossorigin="anonymous"
+    ></script>
 
-	<!--* CSS (My codes) -->
-	<link rel="stylesheet" type="text/css" href="styles.css" />
+    <!--* CSS (My codes) -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
 
   <body>
-	<!--* container/body wrapper for every content in the body -->
-	<div class="flex">
-		
-	</div>
+    <!--* container/body wrapper for every content in the body -->
+    <div class="flex">
+      <header class="cta1">
+        <img class="cta1-bg" src="assets/img/cta1.png" alt="background image" />
+        <div class="cta1__wrapper">
+          <h1>Welcome to our refer and earn program</h1>
+          <p>
+            Kindly submit the information of your contacts in the agric
+            ecosystem
+          </p>
 
-	<!--* JavaScripts -->
-	<script src="js/script.js"></script>
+          <form class="cta1__form" action="">
+            <div class="form-input-group">
+              <label for="name" class="form-input-label" hidden>Name</label>
+              <input
+                type="text"
+                class="form-input"
+                id="name"
+                placeholder="Name"
+              />
+            </div>
+            <div class="form-input-group">
+              <label for="email" class="form-input-label" hidden>Name</label>
+              <input
+                type="text"
+                class="form-input"
+                id="email"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="form-input-group">
+              <label for="number" class="form-input-label" hidden>Name</label>
+              <input
+                type="tel"
+                class="form-input"
+                id="number"
+                placeholder="Phone Number"
+              />
+            </div>
+            <div class="form-input-group">
+              <label for="organisation" class="form-input-label" hidden
+                >Name</label
+              >
+              <input
+                type="text"
+                class="form-input"
+                id="organisation"
+                placeholder="Organisation"
+              />
+            </div>
+            <div class="form-input-group">
+              <button class="form-input referral-btn" type="submit"
+                >Submit</button
+              >
+            </div>
+          </form>
+        </div>
+      </header>
+
+      <section class="how-it-works">
+        <h3>How it works</h3>
+        <div class="how-it-works__section">
+          <div class="how-it-works__card">
+            <div class="how-it-works__image">
+              <img
+                src="assets/img/how-it-works1.svg"
+                alt="how it works icon 1"
+              />
+            </div>
+            <p class="how-it-works__body">
+              Submit the information of your contacts in agric institutions,
+              associations and those who have agric business
+            </p>
+          </div>
+          <div class="how-it-works__card">
+            <div class="how-it-works__image">
+              <img
+                src="assets/img/how-it-works2.svg"
+                alt="how it works icon 2"
+              />
+            </div>
+            <p class="how-it-works__body">We will reach out to them</p>
+          </div>
+          <div class="how-it-works__card">
+            <div class="how-it-works__image">
+              <img
+                src="assets/img/how-it-works3.svg"
+                alt="how it works icon 3"
+              />
+            </div>
+            <p class="how-it-works__body">
+              After a successful conversion, you will earn upto 10% on the deal
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="docs">
+        <img class="docs-bg" src="assets/img/docs.png" alt="background image" />
+        <div class="docs__wrapper">
+          <div class="docs__body">
+            <h3>Onboard users, investors and advisors as you grow</h3>
+            <p>
+              Our infrastructure caters to a broad spectrum of clients ranging
+              from large growers, multi-farm corporations, food conglomerates,
+              agfinancing and insurance companies, to governments and
+              Development Finance Institutions who require key last mile
+              operational data to engage these agribusiness.
+            </p>
+            <a href="#">See Documentation</a>
+          </div>
+          <div class="docs__image">
+            <img
+              src="assets/img/man-cultivating.png"
+              alt="man cultivating corn in is farm."
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="cta2">
+        <div class="cta2__top">
+          <div class="cta2__top__image">
+            <img
+              src="assets/img/cto2.png"
+              alt="user images surrounding money stack."
+            />
+          </div>
+          <div class="cta2__top__body">
+            <h3>You can refer as many contacts as possible!</h3>
+            <p>
+              Now imagine referring 5 contacts and getting 10% commission off
+              their deals? Yes! the more you refer, the more you earn!
+            </p>
+          </div>
+        </div>
+
+        <div class="cta2__bottom">
+          <p>
+            All you need to do is click on the social icons to share your link
+            or enter the details of your referral.
+          </p>
+          <div class="referral-input">
+            <input
+              type="text"
+              name="referral"
+              id="referral"
+              placeholder="TRDBZR5189"
+            />
+            <i class="fa fa-copy" aria-hidden="true"></i>
+          </div>
+
+          <div class="social-links">
+            <div class="links">
+              <span>
+                <img src="assets/img/gmail.svg" alt="gmail icon" />
+              </span>
+              <span>Invite by email</span>
+            </div>
+            <div class="links">
+              <span>
+                <img src="assets/img/facebook.svg" alt="facebook icon" />
+              </span>
+              <span>Share to Facebook</span>
+            </div>
+            <div class="links">
+              <span>
+                <img src="assets/img/twitter.svg" alt="twitter icon" />
+              </span>
+              <span>Share to Twitter</span>
+            </div>
+            <div class="links">
+              <span>
+                <img src="assets/img/linkedin.svg" alt="linkedin icon" />
+              </span>
+              <span>Share to Linkedin</span>
+            </div>
+            <div class="links">
+              <span>
+                <img src="assets/img/whatsapp.svg" alt="whatsApp icon" />
+              </span>
+              <span>Share to WhatsApp</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>© Tradebuza 2020, All Rights Reserved</p>
+      </footer>
+    </div>
+
+    <!--* JavaScripts -->
+    <script src="js/script.js"></script>
   </body>
 </html>
