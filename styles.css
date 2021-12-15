@@ -8,16 +8,7 @@
 }
 .flex {
   overflow: hidden;
-  font-family: 'Nunito', sans-serif;
 }
-
-/* .cta1__wrapper,
-  .how-it-works,
-  .docs__wrapper,
-  .cta2__top,
-  .cta2__bottom {
-    padding: 50px;
-  } */
 
 /* hero section */
 .cta1 {
@@ -37,7 +28,7 @@
   padding: 88px 0 88px 156px;
 }
 .cta1__wrapper > h1 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -46,7 +37,7 @@
   margin-bottom: 8px;
 }
 .cta1__wrapper > p {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -102,7 +93,7 @@
   padding: 88px 156px;
 }
 .how-it-works > h3 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -118,7 +109,7 @@
 }
 .how-it-works__card {
   width: 33%;
-  margin-top: 30px;
+  margin-top: 24px;
   margin-right: 24px;
 }
 .how-it-works__card:last-child {
@@ -132,7 +123,7 @@
 }
 .how-it-works__body {
   padding: 0 24px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -168,7 +159,7 @@
   justify-content: space-between;
 }
 .docs__body > h3 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -178,7 +169,7 @@
   color: #31b5a7;
 }
 .docs__body > p {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -218,13 +209,16 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  border: 1px solid #000;
+}
+.cta2__top__image > img {
+  width: 100%;
+  height: inherit;
 }
 .cta2__top__body {
   text-align: center;
 }
 .cta2__top__body > h3 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -234,7 +228,7 @@
   margin-bottom: 4px;
 }
 .cta2__top__body > p {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -250,7 +244,7 @@
   background: #31b5a7;
 }
 .cta2__bottom > p {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -300,13 +294,12 @@
 }
 
 .social-links {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .links {
-  margin-right: 10px;
-  margin-top: 10px;
-  padding: 0 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -315,17 +308,33 @@
   line-height: 20px;
   letter-spacing: -0.08399999886751175px;
   text-align: center;
-  color: #393a4a;
   padding: 10px;
+  border-radius: 3px;
+  width: 206.4px;
+  margin-top: 10px;
+  margin-right: 24px;
+  margin-bottom: 12px;
+  color: white;
+}
+.links > span:first-child {
+  width: 24px;
+  height: 24px;
+}
+.links > span:first-child > img {
+  width: 100%;
+  height: 100%;
+}
+.links > span:first-child {
+  margin-right: 4px;
 }
 .links:nth-child(1) {
+  color: #393a4a;
   background: #ffffff;
 }
 .links:nth-child(2) {
   background: #3d5b96;
 }
 .links:nth-child(3) {
-  background-color: red;
   background: #5aadec;
 }
 .links:nth-child(4) {
@@ -333,19 +342,43 @@
 }
 .links:nth-child(5) {
   background: #50ae55;
-
   margin-right: 0px;
 }
-.links > span > img {
+
+/* footer */
+footer {
+  background: #002c27;
+  color: white;
+  padding: 32px 169px; 
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1024px) {
+  /* all sections */
   .cta1__wrapper,
   .how-it-works,
   .docs__wrapper,
   .cta2__top,
-  .cta2__bottom {
-    padding: 20px;
+  .cta2__bottom,
+  footer {
+    padding: 88px 100px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  /* all sections */
+  .cta1__wrapper,
+  .how-it-works,
+  .docs__wrapper,
+  .cta2__top,
+  .cta2__bottom,
+  footer {
+    padding: 60px 40px;
   }
 
   /* cta1 section */
@@ -363,7 +396,10 @@
   }
 
   .how-it-works__card {
-    width: 50%;
+    width: calc(50% - 12px);
+  }
+  .how-it-works__card:nth-child(2) {
+    margin-right: 0px;
   }
   .how-it-works__card:last-child {
     width: 100%;
@@ -383,21 +419,18 @@
   .docs__wrapper > div:first-child {
     margin-bottom: 20px;
   }
-  /* cta2 */
-  .social-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
 }
+
 @media screen and (max-width: 500px) {
+  /* all sections */
   .cta1__wrapper,
   .how-it-works,
   .docs__wrapper,
   .cta2__top,
   .cta2__bottom {
-    padding: 20px;
+    padding: 40px 20px;
   }
-  /* ctq2 */
+  /* cta2 */
   .cta2__top {
     width: 100%;
   }
@@ -405,7 +438,9 @@
   /* how it works section */
   .how-it-works__card {
     width: 100%;
-    margin-bottom: 30px;
+  }
+  .how-it-works__card:first-child {
+    margin-right: 0;
   }
   .how-it-works__card img {
     display: flex;
@@ -414,8 +449,7 @@
   }
 
   /* cta2 */
-  .social-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .links {
+    margin-right: 0;
   }
 }
