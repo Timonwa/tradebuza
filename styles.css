@@ -327,19 +327,21 @@
   padding: 10px;
 }
 .links:nth-child(1) {
-  background-color: red;
+  background: #ffffff;
 }
 .links:nth-child(2) {
-  background-color: red;
+  background: #3d5b96;
 }
 .links:nth-child(3) {
   background-color: red;
+  background: #5aadec;
 }
 .links:nth-child(4) {
-  background-color: red;
+  background: #1977a6;
 }
 .links:nth-child(5) {
-  background-color: red;
+  background: #50ae55;
+
   margin-right: 0px;
 }
 .links > span > img {
