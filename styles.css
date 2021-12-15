@@ -255,6 +255,7 @@
 .cta2__bottom {
   padding: 104px 156px;
   text-align: center;
+  background: #31b5a7;
 }
 .cta2__bottom > p {
   font-family: Nunito;
@@ -263,7 +264,8 @@
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0em;
-  background: #ffffff;
+  color: #ffffff;
+  margin-bottom: 24px;
 }
 
 .cta2__bottom > .referral-input {
@@ -271,6 +273,7 @@
   max-width: 408px;
   height: 40px;
   margin: 0 auto;
+  margin-bottom: 24px;
 }
 .cta2__bottom > .referral-input > input {
   width: 100%;
@@ -302,7 +305,6 @@
   right: 0px;
   top: 50%;
   z-index: 1;
-  color: white;
 }
 
 .social-links {
@@ -314,6 +316,15 @@
   margin-top: 10px;
   padding: 0 20px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: SF Pro Text;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.08399999886751175px;
+  text-align: center;
+  color: #393a4a;
+  padding: 10px;
 }
 .links:nth-child(1) {
   background-color: red;
