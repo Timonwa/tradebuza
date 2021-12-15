@@ -15,12 +15,10 @@
   width: 100%;
   height: 100%;
   position: relative;
-}
-.cta1-bg {
-  position: absolute;
-  width: 100%;
-  height: inherit;
-  z-index: -1;
+  background-image: url("assets/img/cta1.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .cta1__wrapper {
   padding: 88px 156px;
@@ -386,6 +384,12 @@ footer {
     padding: 60px 40px;
   }
 
+  
+/* hero section */
+.cta1 {
+  background-image: url("assets/img/cta1-2.svg");
+}
+
   /* cta1 section */
   .cta1__wrapper > .content {
     width: 100%;
@@ -430,6 +434,7 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+  
   /* all sections */
   .cta1__wrapper,
   .how-it-works,
