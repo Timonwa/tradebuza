@@ -23,11 +23,16 @@
   z-index: -1;
 }
 .cta1__wrapper {
-  width: 50%;
-  height: 100%;
-  padding: 88px 0 88px 156px;
+  padding: 88px 156px;
 }
-.cta1__wrapper > h1 {
+.cta1__wrapper > .content {
+  width: 50%;
+}
+.cta1__wrapper > .content > .cta1__wrapper__header {
+  max-width: 552px;
+  min-width: 500px;
+}
+.cta1__wrapper > .content > .cta1__wrapper__header > h1 {
   font-family: "Nunito", sans-serif;
   font-size: 40px;
   font-style: normal;
@@ -36,7 +41,8 @@
   color: #31b5a7;
   margin-bottom: 8px;
 }
-.cta1__wrapper > p {
+
+.cta1__wrapper > .content > .cta1__wrapper__header > p {
   font-family: "Nunito", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -49,7 +55,6 @@
 }
 .cta1__form {
   background-color: #fff;
-  width: 100%;
   max-width: 456px;
   padding: 24px;
 }
@@ -349,7 +354,7 @@
 footer {
   background: #002c27;
   color: white;
-  padding: 32px 169px; 
+  padding: 32px 169px;
   font-family: Mulish;
   font-size: 12px;
   font-style: normal;
@@ -382,12 +387,15 @@ footer {
   }
 
   /* cta1 section */
-  .cta1 {
-    /* height: calc(100% + 50px); */
-    height: 100%;
-  }
-  .cta1__wrapper {
+  .cta1__wrapper > .content {
     width: 100%;
+  }
+  .cta1__wrapper > .content,
+  .cta1__wrapper > .content > .cta1__wrapper__header,
+  .cta1__form {
+    width: 100%;
+    min-width: unset;
+    max-width: unset;
   }
 
   /* how it works section */
